@@ -1,0 +1,57 @@
+/* Variables de la paleta de colores */
+:root {
+  /* Colores */
+  --color-primario: #0e2c64;
+  --color-acento: #3b32c2;
+  --color-texto: #1a1a2e;
+  --color-fondo: #f4f6f9;
+  --color-texto-claro: #ffffff;
+  --fuente-principal: "Inter", sans-serif; 
+}
+
+/* RESET BÁSICO */
+* {box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ESTILOS GLOBALES */
+html {
+  font-family: var(--fuente-principal);
+  font-size: 1rem; 
+  line-height: 1.6;
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Tipografía */
+h1, h2, h3 { 
+ line-height: 1.2;
+ margin-bottom: 1.2rem;
+}
+
+h1 { font-size: 2.5rem;
+color:var(--color-primario);
+font-weight: 700;
+}
+
+h2 { font-size: 1.85;
+color: var(--color-primario);
+font-weight: 600;
+margin-top: 2rem; 
+}
+h3 { font-size: 1.35rem;
+color: var(--color-texto);
+font-weight: 600;
+margin-top: 1.5rem; 
+}
+
+p { 
+  margin-bottom: 1.5rem; 
+  max-width: 75ch; 
+}
+
