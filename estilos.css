@@ -55,3 +55,28 @@ p {
   max-width: 75ch; 
 }
 
+
+/*Tabla   */
+
+teable { 
+  width: 100%;
+}
+
+header tabler {
+  width: 100%
+  border-collapse: collapse;
+}
+header td {
+  vertical-align: middle;
+padding: 10px;
+}
+
+header td:first-child { 
+text-align: left;
+}
+
+header td:not(:first-child):not(:nth-child)(2)) {
+  text-aling: center;
+  width:120px;
+
+}
