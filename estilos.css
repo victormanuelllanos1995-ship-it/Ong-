@@ -143,3 +143,15 @@ footer{
     text-align: center;
     border-top: 4px solid var(--color-naranja);
 }
+
+/*Flexbox*/
+.flex-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.flex-card {
+  display: flex;
+  padding: 20px;
+}
