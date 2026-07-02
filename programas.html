@@ -3,51 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>codeFuture | Programando el Mañana</title>
+    <title>codeFuture - Programas</title>
+
+    <!-- Bootstrap CSS — va antes del CSS propio -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel='stylesheet' href="CSS/estilos.css">
+</head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="programas.html">Programas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <header>
-        <div class="hero">
-            <h1>codeFuture</h1>
-            <h2>Acercando herramientas digitales a la próxima generación de creadores.</h2>
+
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">codeFuture</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="programas.html">Programas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
         </div>
     </header>
 
     <div class="container">
         
-         <main></main>   <h3>Programas de ayuda y de colaboracion</h3>
+        <main>
+            <h2>Programas de ayuda y de colaboracion</h2>
             
-                <h4>Banco de intercambio de equipos informaticos</h4>
-                <p>Con ayuda del voluntariadose reacondicionan equipos en deshuso como computadoras, monitores, perifericos que fueron donados a estudiantes que no cuentan con herramientas propias para empezar a programar.</p>
-                <a href="http://127.0.0.1:5500/index.html" class="btn">Saber cómo</a>
-            
-                
-                <h4>Mentorías IT</h4>
-                <p>Conectamos a profesionales del sector con jóvenes para orientar sus primeros pasos en la industria. Con el fin de desarrollar conocimiento y competencias esenciales en tecnología, permitiéndoles acceder a mayores oportunidades laborales, mejorar su empleabilidad y fomentar la inclusión social, contribuyendo a su desarrollo personal y económico.</p>
-                <a href="http://127.0.0.1:5500/index.html" class="btn">Saber cómo</a>
-            
-            
-                <h4>Becas de Conectividad</h4>
-                <p>Aseguramos que el acceso a internet no sea una barrera para aprender a programar. Junto con colacoradores se provee el acceso priotario a la red.</p>
-                <a href="http://127.0.0.1:5500/index.html" class="btn">Saber cómo</a>
-         <main></main> 
+            <h3>Banco de intercambio de equipos informaticos</h3>
+            <p>Con ayuda del voluntariadose reacondicionan equipos en deshuso como computadoras, monitores, perifericos que fueron donados a estudiantes que no cuentan con herramientas propias para empezar a programar.</p>
+
+            <h3>Mentorías IT</h3>
+            <p>Conectamos a profesionales del sector con jóvenes para orientar sus primeros pasos en la industria. Con el fin de desarrollar conocimiento y competencias esenciales en tecnología, permitiéndoles acceder a mayores oportunidades laborales, mejorar su empleabilidad y fomentar la inclusión social, contribuyendo a su desarrollo personal y económico.</p>
+
+            <h3>Becas de Conectividad</h3>
+            <p>Aseguramos que el acceso a internet no sea una barrera para aprender a programar. Junto con colacoradores se provee el acceso priotario a la red.</p>
+        </main>
         
     </div>
 
     <footer>
-        <p>&copy; 2026 codeFuture - ONG de Tecnología y Educación</p>
+        <p>© 2026 codeFuture - ONG educativa y tecnológica</p>
     </footer>
+
+    <!-- Bootstrap JS — va antes de cerrar el body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
